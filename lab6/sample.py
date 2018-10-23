@@ -8,7 +8,7 @@ import numpy as np
 # IMPORT OBJECT LOADER
 from OBJ import *
 
-filename = argv[1]
+filename = sys.argv[1]
 pygame.init()
 viewport = (800, 600)
 hx = viewport[0] / 2
